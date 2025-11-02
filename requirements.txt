@@ -1,0 +1,15 @@
+os
+re
+joblib
+numpy
+pandas
+tqdm
+spacy
+geotext
+sentence-transformers
+bertopic
+nltk
+scikit-learn
+matplotlib
+seaborn
+streamlit
