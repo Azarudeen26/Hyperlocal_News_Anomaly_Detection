@@ -61,7 +61,7 @@ st.markdown("<p style='text-align:center;color:#555;'>Interactive Analysis of To
 st.markdown("---")
 
 #  Load Data 
-DATA_OUT = r"C:\Users\HP\Documents\Data science\Hyperlocal_News_Anomaly_Detection\data\Articles_processed.csv"
+DATA_OUT = "data/Articles_processed.csv"
 df = pd.read_csv(DATA_OUT)
 
 df['geotext_countries_list'] = df['geotext_countries'].fillna("").apply(lambda x: [c.strip() for c in x.split(",") if c.strip()])
